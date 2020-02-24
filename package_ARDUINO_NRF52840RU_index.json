@@ -3,7 +3,7 @@
   [
     {
       "name": "ARDUINO_NRF52840RU",
-      "maintainer": "NRF5240.RU",
+      "maintainer": "NRF52840.RU",
       "websiteURL": "https://nrf52840.ru",
       "email" : "techsupport@nrf52840.ru",
       "platforms":
