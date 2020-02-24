@@ -1,0 +1,49 @@
+{
+  "packages":
+  [
+    {
+      "name": "ARDUINO_NRF52840RU",
+      "maintainer": "NRF5240.RU",
+      "websiteURL": "https://nrf52840.ru",
+      "email" : "techsupport@nrf52840.ru",
+      "platforms":
+      [
+        {
+          "name": "NRF52840.RU board",
+          "architecture": "mbed",
+          "version": "0.0.1",
+          "category": "Contributed",
+          "url": "https://github.com/lmahmutov/nrf52840_ru_arduino/Arduino_board_nrf52840_ru.zip",
+          "archiveFileName": "Arduino_board_nrf52840_ru.zip",
+          "checksum": "SHA-256:cacefaa58d1699627e667c2ea8263c622ed05e1df7e0f2442e40e00870723460",
+          "size": "17933270",
+          "boards": [
+            {
+              "name": "NRF52840.ru"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.9.1-arduino1"
+            }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
